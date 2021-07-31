@@ -1,10 +1,24 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context="in.nilnet.nilneteducation.MainActivity">
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu_dashboard"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_menu_categories"
+            android:title="Categories" />
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Courses">
+            <menu>
+                <item
+                    android:id="@+id/nav_menu_all_courses"
+                    android:title="All Courses" />
+                <item
+                    android:id="@+id/nav_menu_current_courses"
+                    android:title="Current Courses" />
+            </menu>
+        </item>
+    </group>
 </menu>

@@ -9,4 +9,8 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="nav_app_bar_open_drawer_description">Open navigation drawer</string>
+    <string name="nav_app_bar_close_drawer_description">Close navigation drawer</string>
+
 </resources>
